@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+  .comment {
+    display: none;
+	}
+	.carousel h1{
+ 	font-size: 2rem;
+  }
+	.carousel p{
+ 	font-size: 1rem;
+  }
+  .imgwrap{
+  	margin-bottom: 2rem;
+  }
+
+  #services h3{
+  padding-top: 10rem;
+}
+footer {
+height: 211px;
+}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .comment {
+    display: none;
+	}
+		.carousel h1{
+ 	font-size: 4rem;
+  }
+	.carousel p{
+ 	font-size: 2rem;
+  }
+  .imgwrap{
+  	margin-bottom: 2rem;
+  }
+  #services h3{
+  padding-top: 10rem;
+}
+  }
+
+@media (min-width: 993px) and (max-width: 1170px) {
+  	.carousel h1{
+ 	font-size: 8rem;
+ 	margin-bottom: 2rem;
+  }
+	.carousel p{
+ 	font-size: 3rem;
+ 	margin-bottom: 3rem;
+  }
+  }
+
+@media (min-width: 1171px)  {
+  	.carousel  h1{
+ 	font-size: 9rem;
+  }
+	.carousel p{
+ 	font-size: 3rem;
+  }
+  }
+
