@@ -1,309 +1,361 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Marcin Wieczorek - Portfolio</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <title>Car Repair - Home Page - Marcin Wieczorek</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- pliki CSS: -->
+    <!-- oryginalny Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/wlasne.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
 </head>
-
-<body id="page-top" class="index">
-
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+<body>
+    <!--###############################-->
+    <!-- MENU GÓRNE ###################-->
+    <!--###############################-->
+    <header id="menu" class="navbar-fixed-top">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Marcin Wieczorek</a>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <nav class="navbar navbar-inverse" role="navigation" id="pasek_nav">
+                    <div class="container-fluid">   
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+                                <span class="sr-only">navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>   
+                            <div id="logo">
+                                <a class="navbar-brand" href=#menu>
+                                    <img src="images/logo2.png" class="img-responsive" width="70" height="70">
+                                </a>
+                            </div> 
+                        </div>  
+                        <div class="collapse navbar-collapse" id="navigation">
+                            <ul class="nav navbar-nav navbar-right">
+                               <li><a data-scroll href="#menu">Home</a></li>
+                               <li><a data-scroll href="#service">Service</a></li>
+                               <li><a data-scroll href="#about">About us</a></li>
+                               <li><a data-scroll href="#galeria">Gallery</a></li>
+                               <li><a data-scroll href="#blog">Blog</a></li>
+                               <li><a data-scroll href="#kontakt">Contact</a></li>
+                           </ul>
+                       </div>
+                   </div>
 
-            </div>
+               </nav>
+           </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">O mnie</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Kontakt</a>
-                    </li>
-                </ul>
+       </div>
+   </header>
+   <!--###############################-->
+   <!--Carousel ######################-->
+   <!--###############################-->
+   <div class="carousel slide" id="slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#slide" data-slide-to="0" class="active"></li>
+        <li data-target="#slide" data-slide-to="1"></li>
+        <li data-target="#slide" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/slider1.jpg" alt="" class="img-responsive">
+            <div class="carousel-caption">
+                <h1 class="img-responsive">Lorem ipsum dolor sit amet</h1>
+                <p class="img-responsive">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive img-circle img-responsive" src="img/profile2.jpg" alt="" width="200" height="200">
-                    <div class="intro-text">
-                        <span class="name">MARCIN WIECZOREK</span>
-                        <hr class="star-light">
-                        <span class="skills">Front-End Developer -  User Experience Designer</span>
-                    </div>
-                </div>
+        <div class="item">
+            <img src="images/slider2.jpg"   alt="" class="img-responsive">
+            <div class="carousel-caption">
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
         </div>
-    </header>
+        <div class="item">
+            <img src="images/slider3.jpg"  alt="" class="img-responsive">
+            <div class="carousel-caption">
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--###############################-->
+<!--little###################-->
+<!--###############################-->
+<div id="little">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 kontakt-brd" >
+                <h1 class=""><i class="fa fa-clock-o" aria-hidden="true"></i></h1>
+                <h4>Working Hours:</h4>
+                <h4>Mon - Fri: 7:30  - 15:30</h4>
+                <h4>   Sat   : 10:00 - 15:00</h4>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 kontakt-brd" >
+                <h1 class=""><i class="fa fa-map-marker" aria-hidden="true"></i></h1>
+                <h4>Location:</h4>
+                <h4>34 Grange Rd Fairfield VIC 3078</h4>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" >
+                <h1 class=""><i class="fa fa-comments-o" aria-hidden="true"></i></h1>
+                <h4>Skype: example</h4>
+                <h4>Whatsapp: +48-567-890-890</h4>
+                <h4>Twitter: @example</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!--###############################-->
+<!--service ########################-->
+<!--###############################-->
+<div class="container">
+    <section id="service" class="odstep">
+        <h2 class="text-center">Service</h2>
+        <h1 class="text-center"><i class="fa fa-wrench" aria-hidden="true"></i></h1>
+        <h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 imgwrap" >
+                    <a href="#" class="hvr-outline-out"><img src="images/about1.jpg" width="595" height="660" class="img-responsive"><h3 class="imgDescription text-center">Lorem ipsum dolor sit amet Lorem ipsum dolor sit </h3></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 imgwrap" >
+                    <a href="#" class="hvr-outline-out" id="2u"><img src="images/about2.jpg" width="595" height="660" class="img-responsive"><h3 class="imgDescription text-center">Lorem ipsum dolor sit amet Lorem ipsum dolor sit </h3></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 imgwrap" >
+                    <a href="#" class="hvr-outline-out" id="3u"><img src="images/about3.jpg" width="595" height="660" class="img-responsive"><h3 class="imgDescription text-center">Lorem ipsum dolor sit amet Lorem ipsum dolor sit </h3></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 odstep imgwrap" >
+                    <a href="#" class="hvr-outline-out" id="4u"><img src="images/about4.jpg" width="595" height="660" class="img-responsive"><h3 class="imgDescription text-center">Lorem ipsum dolor sit amet Lorem ipsum dolor sit </h3></a>
                 </div>
             </div>
-            <div class="row">
-
-                <div class="col-lg-4 portfolio-item">  
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/mechanical.jpg" class="img-responsive img-rounded" alt=""></a>                               </div>
-                        
-                        <div class="col-lg-4">                                  
-                            <img src="img/portfolio/wip.png" class="img-responsive " alt="">                    
-                        </div>
-                        <div class="col-lg-4">                    
-                            <img src="img/portfolio/wip.png" class="img-responsive " alt="">                   
-                        </div>                 
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4">                    
-                            <img src="img/portfolio/wip.png" class="img-responsive " alt="">                   
-                        </div>
-                        <div class="col-lg-4">                                  
-                            <img src="img/portfolio/wip.png" class="img-responsive " alt="">                    
-                        </div>
-                        <div class="col-lg-4">                    
-                            <img src="img/portfolio/wip.png" class="img-responsive " alt="">                   
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </section>
+    </div>
+    <button type="button" class="btn btn-success btn-lg center-block my_button hvr-bounce-in">Szczegóły</button>
+    <!--###############################-->
+    <!--numbers #################-->
+    <!--###############################-->
+    <section id="numbers">
+       <div class="container">
+           <div class="row l1">
+               <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">      
+                   <h2>Check it out</h2>
+                    <h2><i class="fa fa-check-square-o icon" aria-hidden="true"></i></h1>
+                   </div>
+                   <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">      
+                       <div class="kwadrat">
+                           <h1 id="first"></h1>
+                           <h5>Team members</h5>
+                       </div>
+                   </div>
+                   <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                       <div class="kwadrat">      
+                           <h1 id="secound"></h1>
+                           <h5>Hours worked</h5>
+                       </div>
+                   </div>                                
+                   <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">      
+                       <div class="kwadrat">
+                           <h1 id="third"></h1>
+                           <h5>Satisfied customers</h5>
+                       </div>
+                   </div>                
+               </div>
+           </div>
+       </section>
+       <!--###############################-->
+       <!--ZESPÓŁ#########################-->
+       <!--###############################-->
+       <div class="container">
+        <section id="about">
+            <h2 class="text-center">About us</h2>
+            <h1 class="text-center"><i class="fa fa-thumbs-up" aria-hidden="true"></i></h1>
+            <h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                       <span class="hvr-grow-rotate"> <img src="images/wspolpraca_01.jpg" width="595" height="660" class="img-responsive img-circle  w1"></span>
+                        <h3 class="text-center">Epsum factorial</h3><br>
+                        <a href=""><h1 class="blue"><i class="fa fa-envelope icon" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-phone-square icon" aria-hidden="true"></i></h1></a><br>
+                        <p class="text-center">Epsum factorial non deposit quid pro quo hic escorol. Souvlaki ignitus carborundum e pluribus unum.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                        <span class="hvr-grow-rotate"> <img src="images/wspolpraca_02.jpg" width="595" height="660" class="img-responsive img-circle w1"></span>
+                        <h3 class="text-center">Epsum factorial</h3><br>
+                        <a href=""><h1 class="blue"><i class="fa fa-envelope icon" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-phone-square icon" aria-hidden="true"></i></h1></a><br>
+                        <p class="text-center">Epsum factorial non deposit quid pro quo hic escorol. Souvlaki ignitus carborundum e pluribus unum.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+                        <span class="hvr-grow-rotate"> <img src="images/wspolpraca_01.jpg" width="595" height="660" class="img-responsive img-circle  w1"></span>
+                        <h3 class="text-center">Epsum factorial</h3><br>
+                        <a href=""><h1 class="blue"><i class="fa fa-envelope icon" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-phone-square icon" aria-hidden="true"></i></h1></a><br>
+                        <p class="text-center">Epsum factorial non deposit quid pro quo hic escorol. Souvlaki ignitus carborundum e pluribus unum.</p>
+                    </div>
 
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>O mnie</h2>
-                    <hr class="star-light">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Mam na imię Marcin.<br> Jestem początkującym Front-End Developerem z Poznania, szukającym swojej pierwszej pracy jako junior. Posiadam dobrą wiedzę odnośnie HTML5 oraz CSS3 oraz podstawy JS. Staram się pisać jasny i czytelny kod, który można z łatwością rozbudowywać. W moich pracach opieram się także na Responsive Web Design. <br>Część projektów, które będę tutaj umieszczał, będą wykorzystywały framework Bootstrap 3 oraz proste skrypty JS napisane przeze mnie.
-</p>
+        </section>
+    </div>
+    <!--###############################-->
+    <!-- GaALERIA ######################-->
+    <!--###############################-->
+    <hr>
+    <section id="galeria">
+        <h2 class="text-center">Gallery</h2>
+        <h1 class="text-center"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></h1>
+        <div class="container">
+            <div class="row ">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" >
+                    <span class="hvr-grow"><img src="images/galeria1.jpg" class="img-responsive img-rounded kafelki"></span>
                 </div>
-                <div class="col-lg-4">
-                    <p>Poruszanie się i wykonywanie prostych prac w Adobe Photoshop nie sprawia mi trudności. Posiadam również podstawową wiedzę odnośnie systemu kontroli wersji Git. <br><br><br><br><br><br> Prywatnie jestem studentem studiów inżynierskich na kierunku Informatyka, co ułatwia mi styczność z róznymi obszarami IT.</p>
+               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" >
+                    <span class="hvr-grow"><img src="images/galeria2.jpg" class="img-responsive img-rounded kafelki"></span>
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Pobierz CV
-                    </a>
+               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" >
+                    <span class="hvr-grow"><img src="images/galeria3.jpg" class="img-responsive img-rounded kafelki"></span>
+                </div>
+               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" >
+                    <span class="hvr-grow"><img src="images/galeria4.jpg" class="img-responsive img-rounded kafelki"></span>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" >
+                    <span class="hvr-grow"><img src="images/galeria5.jpg" class="img-responsive img-rounded kafelki"></span>
+                </div>
+               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" >
+                    <span class="hvr-grow"><img src="images/galeria6.jpg" class="img-responsive img-rounded kafelki"></span>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
+    <!--###############################-->
+    <!--BLOG ##########################-->
+    <!--###############################-->
+    <hr>
+    <section id="blog">
+        <h2 class="text-center">Blog</h2>
+        <h1 class="text-center"><i class="fa fa-newspaper-o" aria-hidden="true"></i></h1>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Kontakt</h2>
-                    <hr class="star-primary">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+                    <a href="#"><img src="images/blog1.jpg" class="img-responsive "></a>
+                    <blockquote>
+                        <h3>Lorem Ipsum</h3>
+                        <p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit</small></p>
+                    </blockquote>
+                    <a href="#"><i><u>Read more</u></i></a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+                    <a href="#"><img src="images/blog2.jpg" class="img-responsive "></a>
+                    <blockquote>
+                        <h3>Lorem Ipsum</h3>
+                        <p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit</small></p>
+                    </blockquote>
+                    <a href="#"><i><u>Read more</u></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--###############################-->
+    <!--KONTAKT #######################-->
+    <!--###############################-->
+    <hr>
+    <section id="kontakt">
+        <h2 class="text-center">Contakt</h2>
+        <h1 class="text-center"><i class="fa fa-phone-square" aria-hidden="true"></i></h1>
+        <div class="container">
+            <div class="row kontakt-mrg kont">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 kontakt-brd text-center" >
+                    <h3 class="text-center"><i class="fa fa-map-marker" aria-hidden="true"></i></h3>
+                    <h4>Location</h4>
+                    <p>7 Grange Rd Fairfield VIC 3078</p>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 kontakt-brd text-center" >
+                    <h3 class="text-center"><i class="fa fa-phone" aria-hidden="true"></i></h3>
+                    <h4>Phone</h4>
+                    <p>1 707 393 103</p>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 kontakt-brd text-center" >
+                    <h3 class="text-center"><i class="fa fa-print" aria-hidden="true"></i></h3>
+                    <h4>Fax</h4>
+                    <p>1 707 393 103</p>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3  text-center" >
+                    <h3 class="text-center"><i class="fa fa-envelope-o" aria-hidden="true"></i></h3>
+                    <h4>E-mail</h4>
+                    <p>info@example.com</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Imie i nazwisko</label>
-                                <input type="text" class="form-control" placeholder="Imie i nazwisko" id="name" required data-validation-required-message="Proszę podać swoje imię i nazwisko.">
-                                <p class="help-block text-danger"></p>
-                            </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
+                    <form action="#" method="post">
+                        <div class="form-group block-right ">
+                            <label for="uzytkownik" class="control-label">Imię i nazwisko:</label>
+                            <input type="text" class="form-control" name="uzytkownik" placeholder="Imię i nazwisko">
                         </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Adres email</label>
-                                <input type="email" class="form-control" placeholder="Adres email" id="email" required data-validation-required-message="Proszę podać swój adres email.">
-                                <p class="help-block text-danger"></p>
-                            </div>
+                        <div class="form-group opacity">
+                            <label for="email" class="control-label">Email:</label>
+                            <input type="text" class="form-control" name="email" placeholder="example@email.com">
                         </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Numer telefonu</label>
-                                <input type="tel" class="form-control" placeholder="Numer telefonu" id="phone" required data-validation-required-message="Proszę podać swój numer telefonu.">
-                                <p class="help-block text-danger"></p>
-                            </div>
+                        <div class="form-group opacity">
+                            <label for="uwagi" class="control-label">Uwagi:</label>
+                            <textarea class="form-control" name="uwagi" rows="8" ></textarea>
                         </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Treść</label>
-                                <textarea rows="5" class="form-control" placeholder="Treść" id="message" required data-validation-required-message="Proszę podać treść wiadomości."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg" value="wyslij">Wyślij</button>
-                            </div>
+                        <div class="form-group opacity">
+                            <button type="submit" class="btn btn-success btn-lg center-block hvr-bounce-in block-center">Wyślij</button>
                         </div>
                     </form>
                 </div>
-            </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 comment text-center">
+                    <h1 class="size-up"><span class="fa fa-comment-o hvr-pulse-grow" aria-hidden="true"></span></h1>
+                </div>
+            </div>           
         </div>
     </section>
 
-
-
-
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                </div>
-                    <div class="footer-below col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <h4>Copyright &copy; Marcin Wieczorek 2016</h4>
-                    </div>
-                    
-                    <div class="footer-col col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                        <h3>Sprawdź:</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/marcinwieczoreq" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/marcin-wieczorek-76410b124" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/wieczorekmarcin" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                        </ul>
-                    
-                </div>
-            </div>
-        </div>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.341941381!2d-74.03927075979131!3d40.75904032952892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C+Nowy+Jork%2C+Stany+Zjednoczone!5e0!3m2!1spl!2spl!4v1479411013840" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen "></iframe>
+    </div>
         
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+               
+  
+        <!--###############################-->
+        <!--STOPKA ########################-->
+        <!--###############################-->
+        <footer> 
+            <div class="container-fluid">
+              <div class="row">      
+                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 copy text-center" >
+                    <h5>© 2016 Marcin Wieczorek. All Rights Reserved.</h5>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 social text-center" >
+                    <h3><a href="http://www.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="http://www.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="http://www.com"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        <a href="http://www.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a></h3>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Mechanical</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/mechanical.jpg" class="img-responsive img-centered img-rounded" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="http://wieczorekmarcin.github.io/projects/mechanical">Live Preview</a>
-                                    </strong>
-                                </li>
-                                <li>Data:
-                                    <strong>Listopad 2016
-                                    </strong>
-                                </li>
-                                <li>Technologie:
-                                    <strong>HTML5/CSS3/JS/Bootstrap/RWD
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Zamknij</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
-
-</body>
-
-</html>
+        </footer>
+        <!-- sekcja JavaScript  -->
+        <script src="js/jquery-2.0.3.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/countUp.js"></script>
+        <script src="js/scroll-animate.js"></script>
+        <script src="js/smooth-scroll.js"></script>
+    </body>
+    </html>
