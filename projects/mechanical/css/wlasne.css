@@ -1,0 +1,321 @@
+body {
+	background-color:#fff;
+	font-family: 'Lato', sans-serif;
+}
+p{
+ color: #666666
+}
+.btn{
+ background-color:  #1D9F75;
+}
+.btn:hover{
+ background-color:  #0C8E64;
+}
+/*Menu Główne*/
+.navbar{
+	background-color: #0E0E0E;
+	border-color: #0E0E0E;
+	font-size: 1.7rem;
+	padding-top: 1.2rem;
+}
+#menu{
+	background-color: #0E0E0E;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff;
+  margin-left: 5px;
+  border: 1px solid transparent;
+  line-height: 1rem;
+  padding-top: 2rem;
+  margin-right: 5px;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  display: block;
+  color: #fc4349;
+  border: 1px solid transparent;
+  border-color: #fc4349;
+  line-height: 1rem;
+  border-radius: 4px;
+  transition: all 0.7s ease;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  display: block;
+  border-color: #ffffff;
+  background-color: #0E0E0E;
+  border-radius: 4px;
+  border-color: #fc4349;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  color: #fc4349;
+  background-color: #0E0E0E;
+  border-color: #fc4349;
+  padding: -10px;
+}
+#logo img{
+  display: block;
+  float: none;
+  margin-top: -2rem;
+}
+/*!--###############################-->
+ <!--Carousel ######################-->
+ <!--###############################--*/
+ .carousel{
+ 	margin-top: 8rem;
+ }
+.carousel .item {
+  width: 100%;
+  max-height: 900px;
+  margin: 0 auto;
+}
+.carousel .item img {
+  width: 100%;
+}
+.carousel p {
+  color:  #ffffff;
+}
+/*
+/*<!--###############################-->
+<!--KONTAKT MAŁY###################-->
+<!--###############################-->*/
+ #little{
+ 	background-color: #ebebeb;
+ 	color: #333;
+ }
+ #little h4{
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+ }
+ #little h1{
+  color: #A52A2A;
+  text-align: center;
+ }
+/* <!--###############################-->
+<!--services ########################-->
+<!--###############################-->*/
+#service{
+	padding-top: 10rem;
+}
+#service > h2{
+	margin-bottom: 4rem;
+}
+#service > h4{
+	margin-top: 4rem;
+	margin-bottom: 12rem;
+  color: #666666;
+}
+.my_button{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.imgwrap{
+  position: relative;
+}
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.6s ease;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.imgwrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 0.7;
+}
+#services h3{
+  padding-top: 6rem;
+}
+/* <!--###############################-->
+<!--numbers ########################-->
+<!--###############################-->*/
+
+#numbers{
+	padding-top: 15rem;
+  padding-bottom: 10rem;
+  display: fixed;
+  background-color: #00B6C6;
+  color: #ffffff;
+}
+#numbers h2{
+  color: #ffffff
+  font-size: 4rem;
+}
+.kwadrat{
+  background-color: #ffffff;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  border-radius: 0.4rem;
+  color: #00B6C6;
+}
+/*<!--###############################-->
+<!--ZESPÓŁ#########################-->
+<!--###############################-->*/
+#about {
+	padding-top: 10rem;
+}
+#about h2 {
+	padding-bottom: 4rem;
+}
+#about h4 {
+	margin-top: 4rem;
+  margin-bottom: 8rem;
+  color: #666666;
+}
+.blue{
+  font-size: 4rem;
+  letter-spacing: 2.5rem;
+  text-align: center;
+  color: #00B6C6;
+}
+
+/*<!--###############################-->
+<!-- Galeria ######################-->
+<!--###############################-->*/
+#galeria{
+  padding-top: 10rem;
+}
+#galeria h2{
+  margin-bottom: 10rem;
+}
+/*<!--###############################-->
+<!-- nasze rpace ######################-->
+<!--###############################-->*/
+#galeria h1{
+
+  margin-bottom: 6rem;
+}
+.kafelki{
+  padding-bottom: 3rem;
+}
+/*<!--###############################-->
+<!-- blog ######################-->
+<!--###############################-->*/
+#blog{
+  padding-top:10rem;
+  padding-bottom: 2rem;
+}
+#blog h2{
+  margin-bottom:6rem;
+}
+#blog h1{
+  margin-bottom:6rem;
+}
+#kontakt{
+padding-top: 10rem;
+}
+#kontakt h2{
+  margin-bottom:6rem;
+}
+#kontakt h1{
+  margin-bottom:6rem;
+}
+.kont{
+  background-color: #1D9F75;
+  color: #ffffff;
+}
+.kontakt-mrg{
+  margin-bottom: 5rem;
+}
+.kontakt-brd{
+  border-right: 1px dotted white;
+}
+.comment{
+  color: #00B6C6;
+}
+#kontakt p{
+  color: #ffffff;
+}
+/*<!--###############################-->
+<!-- blog ######################-->
+<!--###############################-->*/
+.size-up{
+  font-size: 25rem;
+}
+.opacity:hover{
+  opacity: 1;
+}
+.map{
+  width: 100%;
+
+  text-align: center;
+}
+/*<!--###############################-->
+<!-- STOPKA ######################-->
+<!--###############################-->*/
+ footer {
+  height: 100px;
+  background-color: black;
+  width: 100%;
+ }
+.social{
+letter-spacing: 2rem;
+margin-top: 1.5rem;
+}
+.fa-facebook:hover{
+background-color: #3b5998
+}
+.fa-twitter:hover{
+background-color: #55acee
+}
+.fa-youtube:hover{
+background-color: #bb0000
+}
+.fa-google-plus:hover{
+background-color: #dd4b39
+}
+.fa-facebook{
+color: white;
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: 2rem;
+padding-right: 2rem;
+border-radius: 5px;
+transition: all 500ms ease;
+}
+.fa-twitter{
+color: white;
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: 2rem;
+padding-right: 2rem;
+border-radius: 5px;
+transition: all 500ms ease;
+}
+.fa-youtube{
+color: white;
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: 2rem;
+padding-right: 2rem;
+border-radius: 5px;
+transition: all 500ms ease;
+}
+.fa-google-plus{
+color: white;
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: 2rem;
+padding-right: 2rem;
+border-radius: 5px;
+transition: all 500ms ease;
+}
+.copy{
+  color: #ffffff;
+  margin-top: 3rem;
+  color: #666666;
+}
+.copy:hover{
+  color: #ffffff;
+  margin-top: 3rem;
+  cursor: pointer;
+}
