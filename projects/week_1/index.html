@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<title>form</title>
+</head>
+<body>
+
+<div class="main-container">
+	<header>
+			<div class="logo-top">
+				<img src="img/logo-top.png">
+			</div>
+	</header>
+	<main>
+		<section class="l-field">
+			<div class="register-form">
+					<h2>Register Form</h2>
+					<div class="form-border">
+					<form>
+						<label class="label-input"><i class="icon-user"></i><input type="text" placeholder="Username"></label>
+						<label class="label-input"><i class="icon-lock-filled"></i><input type="text" placeholder="Password"></label>
+						<label class="label-input"><i class="icon-lock-filled"></i><input type="text" placeholder="Confirm Password"></label>
+						<label class="label-input"><i class="icon-email"></i><input type="text" placeholder="Email"></label>
+						<label class="label-input"><i class="icon-location"></i>
+							<select required>
+							    <option value="" disabled selected hidden>Your Location</option>
+							    <option value="Warszawa">Warszawa</option>
+							    <option value="Gdańsk">Gdańsk</option>
+							    <option value="Kraków">Kraków</option>
+							</select>
+						</label>
+						<div class="checkbox-line">
+							<label class="check">
+							    <input type="checkbox">
+							    <span></span>
+							</label>I have read and accept the terms of use
+						</div>
+						<input type="submit" class="submit" value="Sign Up">
+					</form>
+					</div>
+				</div>
+				<div class="send-email">
+					<h2>Send E-mail</h2>
+					<div class="form-border">
+					<form>
+						<label class="label-input"><i class="icon-user"></i><input type="text" placeholder="Your Name"></label>
+						<label class="label-input"><i class="icon-email"></i><input type="text" placeholder="Your Email"></label>
+						<textarea class="text-area" placeholder="Type your message ..."></textarea>
+						<div class="checkbox-line">
+							<label class="check">
+							    <input type="checkbox">
+							    <span></span>
+							</label>Send a copy to my Email.
+						</div>
+						<input type="submit" class="submit" value="Send Email">
+					</form>
+					</div>
+				</div>
+		</section>
+					<section class="r-field">
+				<div class="sign-in">
+					<h2>Sign In</h2>
+					<div class="form-border">
+					<form>
+						<label class="label-input"><i class="icon-user"></i><input type="text" placeholder="Your Name"></label>
+						<label class="label-input"><i class="icon-lock-filled"></i><input type="text" placeholder="Password"></label>
+						<div class="checkbox-line" id="margin-top">
+							<label class="check">
+							    <input type="checkbox">
+							    <span></span>
+							</label>Remember me.
+							<div class="submit-small-right"><input type="submit" class="submit" value="Sign in"></div>
+						</div>
+					</form>
+					</div>
+				</div>
+				<div class="recover-form">
+					<h2>Recover Form</h2>
+					<div class="form-border">
+					<form>
+						<label class="label-input"><i class="icon-email"></i><input type="text" placeholder="Enter your Email"></label>
+						<label class="label-input"><i class="icon-mobile-alt"></i><input type="text" placeholder="Enter your Phone number"></label>
+						<div class="button-box">
+							<div class="submit-small"><input type="submit" class="submit" value="Send"></div>
+							<div class="submit-small"><input type="submit" class="submit" value="Done" disabled="disabled"></div>
+						</div>
+					</form>
+					</div>
+				</div>
+				<div class="subscribe-form">
+					<h2>Subscribe Form</h2>
+					<div class="form-border">
+					<form>
+						<label class="label-input"><i class="icon-email"></i><input type="text" placeholder="Enter your Email"></label>
+						<div class="button-box">
+							<div class="submit-small"><input type="submit" class="submit" value="Subscribe"></div>
+							<div class="submit-small"><input type="submit" class="danger" value="No, Thanks"></div>
+						</div>
+					</form>
+					</div>
+				</div>
+				<div class="logo-bot">
+					<img src="img/logo-bottom.png">
+				</div>
+			</section>
+	</main>
+
+</div>
+</body>
+</html>
