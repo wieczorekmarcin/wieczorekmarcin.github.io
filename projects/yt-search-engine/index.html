@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="YouTube - Seach Engine">
+    <meta name="author" content="Marcin Wieczorek">
+    <title>YouTube - Seach Engine</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css" >
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-icon-top navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="//pngimg.com/uploads/youtube/youtube_PNG21.png" class="img-responsive"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+          <form role="form" class="navbar-form navbar-left" id="search-form" name="search-form" onsubmit="return search()">
+            <div class="form-group fieldcontainer input-group">
+              <input type="search" id="query" class="form-control search-field" placeholder="Search">
+            </div>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#">
+                <i class="fa fa-envelope-o">
+                  <span class="badge badge-danger">11</span>
+                </i>
+                Messages
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-user-circle-o"></i>
+                Account <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="bg-yt-result">
+      <div>
+        <spanc class="mt-10"></span>
+        <div class="container"><div class="packages col-md-7 col-md-offset-1">
+          <div class="row packages-group">
+            <small class="pull-right" id="totalResults"></small>
+            <div id="results"> 
+            </div>
+          </div>
+            <div id="buttons"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="copyright">
+              © 2017, Marcin Wieczorek, All rights reserved
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="design">
+               <a target="_blank" href="//https://github.com/wieczorekmarcin/">Web Design &amp; Development by Marcin Wieczorek</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>

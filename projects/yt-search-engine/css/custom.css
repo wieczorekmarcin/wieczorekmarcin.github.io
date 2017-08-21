@@ -1,0 +1,158 @@
+/*Custom styles*/
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+#results .video-box{
+	padding: 10px 0;
+	border-bottom: 1px #ccc dotted;
+	list-style: none;
+	overflow: auto;
+}
+
+.list-left{
+	float: left;
+	width: 20%;
+}
+
+.list-left img{
+	width: 100%;
+	padding: 3px;
+	border: solid #ccc 1px;
+}
+
+.list-right{
+	float: right;
+	width: 78%;
+}
+
+.cTitle{
+	color: #dd2826;
+}
+
+.button-container{
+	margin-top: 25px;
+}
+
+.paging-button{
+	background: #f4f4f4;
+	padding: 8px 13px;
+	border: #ccc 1px solid;
+	color: #333;
+	margin: 10px 20px 10px 10px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.bg-loader{
+	background:url(../images/loader.svg) no-repeat center center;
+	background-color: #fff;
+	background-attachment: fixed;
+	opacity: 0.4;
+	z-index: 999;
+}
+
+.bg-static{
+	background:url(../images/bg.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 999;
+	
+}
+
+.bg-yt-result{
+	background-color: #F1F1F1;
+	height: 100%;
+	min-height: 82vh;
+}
+
+.bg-yt-result .mt-10{
+	padding: 10px;
+}
+
+.packages{
+	background-color: #fff !important;
+}
+
+.navbar, .navbar-nav > .active > a{
+	background-color: #fff!important;
+}
+
+.navbar{
+	background-color: #fff;
+}
+
+.navbar-brand img{
+	max-width: 80px;
+    margin-top: -30px;
+}
+
+.fieldcontainer {
+	width: 100%;
+}
+
+.container-fluid{
+	padding-left: 30px!important;
+	padding-right: 30px!important;
+}
+
+#totalResults{
+	margin-right: 15px;
+}
+
+.footer-bottom {
+    background-color: #777;
+    min-height: 30px;
+    width: 100%;
+}
+.copyright {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.design {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+.design a {
+    color: #fff;
+}
+
+.navbar-icon-top .navbar-nav>li>a>.fa, .navbar-icon-top .navbar-nav>li>a>.glyphicon {
+    position: relative;
+    width: 36px;
+    font-size: 24px;
+}
+.navbar-icon-top .navbar-nav>li>a>.fa>.badge, .navbar-icon-top .navbar-nav>li>a>.glyphicon>.badge {
+    position: absolute;
+    right: 0;
+    font-family: sans-serif;
+}
+
+@media (min-width: 768px) {
+    .navbar-icon-top .navbar-brand {
+        padding: 25px 15px;
+    }
+    .navbar-icon-top .navbar-text {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .navbar-icon-top .navbar-btn, .navbar-icon-top .navbar-form {
+        margin-top: 18px;
+        margin-bottom: 18px;
+        margin-left: 50px;
+    }
+    .navbar-icon-top .navbar-nav>li>a {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    form #query{
+		width: 500px;
+	}
+}
