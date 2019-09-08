@@ -69,7 +69,6 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
   color: white;
 }
 header .container {
@@ -296,6 +295,9 @@ form .row:first-child .floating-label-form-group {
 }
 footer {
   color: white;
+  position:absolute;
+  bottom:0;
+  width: 100%;
 }
 footer h3 {
   margin-bottom: 30px;
@@ -307,9 +309,8 @@ footer .footer-above {
 footer .footer-col {
   margin-bottom: 50px;
 }
-footer .footer-below {
-  padding: 100px 0;
- 
+footer ul {
+  margin-top: -10px;
 }
 .btn-outline {
   color: white;
